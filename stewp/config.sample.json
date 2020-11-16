@@ -1,0 +1,45 @@
+{
+  "wpURL": "your wordpress site url",
+  "color": {
+    "mainColor"  : "unset",
+    "subColor"   : "unset",
+    "baseColor"  : "unset",
+    "accentColor": "unset",
+    "fontColor"  : "unset"
+  },
+  "list": {
+    "style"        : 0,
+    "pickUp"       : true,
+    "totalArticles": true,
+    "perPage"      : [10, 20, 30],
+    "filter"       : {
+      "category": true,
+      "tag"     : true,
+      "keyword" : true
+    },
+    "pagination": true
+  },
+  "post": {
+    "articlePagePath": "article.html",
+    "author"         : true,
+    "categories"     : true,
+    "tags"           : true,
+    "modified"       : true
+  },
+  "article": {
+    "style"     : true,
+    "author"    : true,
+    "categories": true,
+    "tags"      : true,
+    "modified"  : true,
+    "share"     : {
+      "link"    : true,
+      "facebook": true,
+      "twitter" : true,
+      "pocket"  : true
+    },
+    "relatedList": {
+      "display": true
+    }
+  }
+}
