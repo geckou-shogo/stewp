@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEWP index</title>
+  <script src="stewp/index.bundle.js" defer></script>
+</head>
+<body>
+  <div id="stewpList" style="max-width: 1024px; margin: auto; padding: 8px;">
+    <stewp-list v-if="isStewpList"
+      :app-config-object="appConfig"></stewp-list>
+  </div>
+</body>
+</html>
