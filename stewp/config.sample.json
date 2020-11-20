@@ -1,5 +1,5 @@
 {
-  "wpURL": "your wordpress site url",
+  "wpUrl": "https://your_wordpress_site/",
   "color": {
     "mainColor"  : "unset",
     "subColor"   : "unset",
@@ -9,7 +9,7 @@
   },
   "list": {
     "style"        : 0,
-    "pickUp"       : true,
+    "pickUp"       : false,
     "totalArticles": true,
     "perPage"      : [10, 20, 30],
     "filter"       : {
@@ -21,12 +21,18 @@
   },
   "post": {
     "articlePagePath": "article.html",
+    "paramsName"     : "article",
     "author"         : true,
     "categories"     : true,
     "tags"           : true,
     "modified"       : true
   },
   "article": {
+    "customField": {
+      "use"               : true,
+      "originalParamsName": "",
+      "settinglParamsName": "stewp_params"
+    },
     "style"     : true,
     "author"    : true,
     "categories": true,
