@@ -29,9 +29,9 @@
   },
   "article": {
     "customField": {
-      "use"               : true,
+      "use"               : false,
       "originalParamsName": "",
-      "settinglParamsName": "stewp_params"
+      "settinglParamsName": ""
     },
     "style"     : true,
     "author"    : true,
