@@ -25,7 +25,7 @@ STEWPはWP REST APIを利用して、現在運営しているWEBサイトにWord
 
 ```
   <div id="stewpList">
-    <stewp-list v-if="isStewpList" :app-config-object="appConfig"/>
+    <stewp-list v-if="isStewpList" :app-config-object="appConfig"/></stewp-list>
   </div>
 ```
 
@@ -44,7 +44,7 @@ STEWPはWP REST APIを利用して、現在運営しているWEBサイトにWord
 
 ```
   <div id="stewpArticle">
-    <article-content v-if="isStewpArticle" :app-config-object="appConfig"/>
+    <stewp-article v-if="isStewpArticle" :app-config-object="appConfig"/></stewp-article>
   </div>
 ```
 ## 設定
