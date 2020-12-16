@@ -1,4 +1,5 @@
 stewp/config.json
+stewp/*.txt
 
 .DS_Store
 Thumbs.db
