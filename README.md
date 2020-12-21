@@ -109,3 +109,7 @@ STEWPで使われる色の設定です。
 | share.twitter | Boolean | twitterシェアボタンを使用するかどうか。 |
 | pocket.twitter | Boolean | pocketボタンを使用するかどうか。 |
 | relatedList.display | Boolean | 関連記事を表示するかどうか。 |
+
+### ライセンス
+
+Created by Mirek Geckou CCL. Released under the MIT License.
