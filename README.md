@@ -112,4 +112,4 @@ STEWPで使われる色の設定です。
 
 ### ライセンス
 
-Created by Geckou CCL. Released under the MIT License.
+Created by Geckou LLC. Released under the MIT License.
